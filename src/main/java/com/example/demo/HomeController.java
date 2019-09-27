@@ -30,13 +30,15 @@ public class HomeController {
     public String CoreJava(){
         return "CoreJava";
     }
-    @GetMapping("/ObjectOriented")
-    public String ObjectOriented(){
-        return "ObjectOriented";
+    @GetMapping("/ObjectOrientedJava")
+    public String ObjectOrientedJava(){
+        return "ObjectOrientedJava";
 
     }
     @GetMapping("/Bootstrap")
     public String Bootstrap(){
         return "Bootstrap";
     }
-}
+
+
+    }
